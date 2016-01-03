@@ -12,6 +12,7 @@
 		4BD97AC11C389FF80051750F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD97ABF1C389FF80051750F /* Main.storyboard */; };
 		4BD97AC31C389FF80051750F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD97AC21C389FF80051750F /* Assets.xcassets */; };
 		4BD97AC61C389FF80051750F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD97AC41C389FF80051750F /* LaunchScreen.storyboard */; };
+		4BD97ACE1C38A3420051750F /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4BD97ACD1C38A3420051750F /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4BD97AC21C389FF80051750F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BD97AC51C389FF80051750F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD97AC71C389FF80051750F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD97ACD1C38A3420051750F /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4BD97ABA1C389FF80051750F /* PokemonIndex-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				4BD97ACD1C38A3420051750F /* pokemon.csv */,
 				4BD97ABB1C389FF80051750F /* AppDelegate.swift */,
 				4BD97ABD1C389FF80051750F /* ViewController.swift */,
 				4BD97ABF1C389FF80051750F /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					4BD97AB71C389FF80051750F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DDYJ4Q4W3Y;
 					};
 				};
 			};
@@ -124,6 +128,7 @@
 			files = (
 				4BD97AC61C389FF80051750F /* LaunchScreen.storyboard in Resources */,
 				4BD97AC31C389FF80051750F /* Assets.xcassets in Resources */,
+				4BD97ACE1C38A3420051750F /* pokemon.csv in Resources */,
 				4BD97AC11C389FF80051750F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "PokemonIndex-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.steveshanks.PokemonIndex-IOS";
@@ -260,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "PokemonIndex-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.steveshanks.PokemonIndex-IOS";
